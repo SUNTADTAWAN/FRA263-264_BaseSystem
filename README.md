@@ -5,12 +5,7 @@
 Before starting the installation, ensure you have the following software installed:
 
 * **Docker Desktop:** [Download here](https://www.docker.com)
-* **Python 3.x:** For running the Backend Server.
-* **Pip:** Python package manager.
-* Install python package (Recomended to use venv)
-```bash
-pip install -r requirements.txt
-```
+
 
 ---
 
@@ -21,9 +16,8 @@ Follow these steps to deploy both the Frontend and Backend services with a singl
 ### 1. Prepare Your Files
 Ensure the following 3 files are located in the same directory:
 1.  `frontend-image.tar` (The Web UI Image)
-2.  `main.py`
-3.  `protocol.py`
-4.  `docker-compose.yml` (The configuration file to link both systems)
+2.  `docker-compose.yml` (The configuration file to link both systems)
+3.  `main.exe`
 
 ### 2. Load Docker Images
 Open your Terminal or Command Prompt in that directory and run:
@@ -41,7 +35,7 @@ docker-compose up -d
 
 2. Start the python server (in separate terminal)
 ```bash
-python main.py
+run the main.exe
 ```
 
 Once `server.py` is running, your terminal should display:
