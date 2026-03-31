@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+websockets
+
+pymodbus>=3.3.0
+pyserial>=3.5
