@@ -74,7 +74,9 @@ If you need to stop the system or clean up the container, use these commands:
 ---
 ## How to use 
 
-- **[How to use Basesystem 101](https://www.canva.com/design/DAHE8Fh-IMo/W4FFfpB9MPfNpv0Xq4A5Mg/edit?utm_content=DAHE8Fh-IMo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+- **[How to use Basesystem 101](/HowToUse.pdf)**
+
+
 ---
 
 <!-- > [!TIP]
