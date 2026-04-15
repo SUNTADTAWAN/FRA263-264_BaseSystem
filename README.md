@@ -28,9 +28,8 @@ Follow these steps to deploy both the Frontend and Backend services with a singl
 ### 1. Prepare Your Files
 Ensure the following 3 files are located in the same directory:
 1.  `frontend-image.tar` (The Web UI Image)
-2.  `main.py`
-3.  `protocol.py`
-4.  `docker-compose.yml` (The configuration file to link both systems)
+2.  `docker-compose.yml` (The configuration file start the interface)
+3. `main.exe` (For connect to STM)
 
 ### 2. Load Docker Images
 Open your Terminal or Command Prompt in that directory and run:
@@ -46,16 +45,16 @@ docker-compose up -d
 ```
 <!-- Status: Once the terminal shows Started, the dashboard will be live at: http://localhost:3000 -->
 
-2. Start the python server (in separate terminal)
+2. Start the python server
 ```bash
-python main.py
+run the main.exe
 ```
 
 Once `server.py` is running, your terminal should display:
 `WebSocket Server is running on ws://localhost:8765...`
 
 1.  Open your web browser.
-2.  Navigate to: **[http://localhost:3000](http://localhost:3000)** (Reload once if it shown disconnect from python)
+2.  Navigate to: **[http://localhost:3000](http://localhost:3000)** (Reload once if it shown disconnect from python, If not work check if main is running)
 
 ---
 
@@ -81,7 +80,7 @@ If you need to stop the system or clean up the container, use these commands:
 ---
 ## How to use 
 
-- **[How to use Basesystem 101](/HowToUse.pdf)**
+- **[How to use Basesystem 101](https://canva.link/9pr3jhzbh18pxbn)**
 
 
 ---
