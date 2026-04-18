@@ -14,10 +14,6 @@ Before starting the installation, ensure you have the following software install
 * **Docker Desktop:** [Download here](https://www.docker.com)
 * **Python 3.x:** For running the Backend Server.
 * **Pip:** Python package manager.
-* Install python package (Recomended to use venv)
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
