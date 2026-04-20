@@ -43,7 +43,7 @@ docker-compose up -d
 
 2. Start the python server
 ```bash
-run the main.exe
+main.exe
 ```
 
 Once `server.py` is running, your terminal should display:
