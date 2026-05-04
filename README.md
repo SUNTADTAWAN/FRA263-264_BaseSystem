@@ -12,8 +12,6 @@ For step-by-step connection checks and example messages, see **[`test.md`](test.
 Before starting the installation, ensure you have the following software installed:
 
 * **Docker Desktop:** [Download here](https://www.docker.com)
-* **Python 3.x:** For running the Backend Server.
-* **Pip:** Python package manager.
 
 ---
 
