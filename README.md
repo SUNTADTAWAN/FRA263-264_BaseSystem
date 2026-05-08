@@ -28,7 +28,7 @@ Ensure the following 3 files are located in the same directory:
 ### 2. Load Docker Images
 Open your Terminal or Command Prompt in that directory and run:
 ```bash
-docker load -i frontend-image.tar
+docker load -i <image-name.tar>
 ```
 
 ### 3. Start the System
